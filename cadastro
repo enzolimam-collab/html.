@@ -1,1 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+</head>
+<body>
 
+    <h2>Cadastro</h2>
+
+    <form>
+
+        <label>Nome completo:*</label><br>
+        <input type="text" placeholder="Digite seu nome" required>
+        <br>
+
+        <label>CPF:*</label><br>
+        <input type="text" placeholder="Digite seu CPF" required>
+        <br>
+
+        <label>E-mail:*</label><br>
+        <input type="email" placeholder="Digite seu e-mail" required>
+        <br>
+
+        <label>Senha:*</label><br>
+        <input type="password" placeholder="Digite sua senha" required>
+        <br>
+
+        <label>Confirmar senha:*</label><br>
+        <input type="password" placeholder="Confirme sua senha" required>
+        <br>
+
+        <input type="checkbox">
+        Aceito os termos de uso
+        <br>
+
+        <input type="submit" value="Cadastrar">
+
+    </form>
+
+    <a href="login.html">Já possui uma conta? Faça login.</a>
+
+</body>
+</html>
